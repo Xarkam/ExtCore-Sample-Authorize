@@ -1,0 +1,39 @@
+@page
+@model Barebone.ViewModels.Account.LogInViewModel
+@{
+    ViewBag.Title = "Login";
+}
+<div class="container">
+    <div class="row">
+        <div class="col c12">
+            <h2>Advanced Sample Accounting <br />Web Application</h2>
+            <br/>
+            <h3>Login</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col c3"></div>
+        <div class="col c6">
+            <form method="post">
+                @Html.AntiForgeryToken()
+                <label for="UserName">User name</label>
+                <div>
+                    <input name="UserName" id="UserName"/>
+                </div>
+                <label for="Password">Password</label>
+                <div>
+                    <input name="Password" type="password" id="Password"/>
+                </div>
+                <div>
+                    <button class="btn btn-b btn-sm">Log in</button>
+                </div>
+            </form>
+        </div>
+        <div class="col c3"></div>
+    </div>
+    <div class="row">
+        <div class="col c12">
+            <a href="./PasswordHasher">Genereate hashed password</a>
+        </div>
+    </div>
+</div>
