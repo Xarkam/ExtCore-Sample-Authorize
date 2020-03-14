@@ -12,8 +12,12 @@ This is the ExtCore framework advanced sample accounting web application:
 
 ![Advanced sample accounting web application](http://sikorsky.pro/images/github/extcore-sample-accounting/1.png)
 
+![Authorize sample accounting web application](https://raw.githubusercontent.com/Xarkam/projects-pictures/master/ExtCore-Sample-Authorize.png?token=AACRAKDG7XLLTTM57BUANOK6NTNRQ)
+
 It contains 4 extensions: barebone (defines the generic system UI etc.), incomes, expenses, and balance.
-It uses SQLite database to store all the information. UI is built from the parts too.
+It uses SQLite database to store all the information. UI is built from the parts too.  
+It use appsettings.json to store user login and password.  
+Use the internal password hasher to generate hashed password and place it in appsettings.json
 
 ## Getting Started
 
@@ -35,6 +39,7 @@ add direct dependencies to the main web application project instead, but it is n
 * [ExtCore framework 5.0.0 sample web application that uses Identity](https://github.com/ExtCore/ExtCore-Sample-Identity);
 * [ExtCore framework 5.0.0 sample web application with modular UI](https://github.com/ExtCore/ExtCore-Sample-Modular-Ui);
 * [ExtCore framework 5.0.0 advanced sample web application with modular UI](https://github.com/ExtCore/ExtCore-Sample-Modular-Ui-Adv);
+* [ExtCore framework 5.0.0 advanced sample accounting web application](https://github.com/ExtCore/ExtCore-Sample-Accounting);
 * [ExtCore framework 5.0.0 sample web application that registers a service inside the extension](https://github.com/ExtCore/ExtCore-Sample-Service);
 * [ExtCore framework 5.0.0 sample web application that uses the events](https://github.com/ExtCore/ExtCore-Sample-Events);
 * [ExtCore framework 5.0.0 sample API web application](https://github.com/ExtCore/ExtCore-Sample-Api).
